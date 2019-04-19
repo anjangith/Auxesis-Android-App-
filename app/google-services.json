@@ -1,0 +1,115 @@
+{
+  "project_info": {
+    "project_number": "212782111292",
+    "firebase_url": "https://auxesis-64126.firebaseio.com",
+    "project_id": "auxesis-64126",
+    "storage_bucket": "auxesis-64126.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:212782111292:android:b3c66fbfbcafa8c1",
+        "android_client_info": {
+          "package_name": "auxesisapp.anjanproduction.com.auxesis"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "212782111292-grtm2q27f79nkbbe8e0pi71lbhin9a37.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "auxesisapp.anjanproduction.com.auxesis",
+            "certificate_hash": "778cdb02f5fef2855579b3edac386666605bc46a"
+          }
+        },
+        {
+          "client_id": "212782111292-5n7ckenbtk4psou6h3up8uugi2i9qal9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "auxesisapp.anjanproduction.com.auxesis",
+            "certificate_hash": "9263f6616e11a210f1c2bcf0d55873feb222c712"
+          }
+        },
+        {
+          "client_id": "212782111292-1l506ed5p4vu73mmiovb2aoivfi2agrl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "auxesisapp.anjanproduction.com.auxesis",
+            "certificate_hash": "8de9da8ee0f7802e0899d345f90fad6bc5c27cce"
+          }
+        },
+        {
+          "client_id": "212782111292-fv3j8k560t9gtijbj1tbk629e4o5tsn2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAomuQH6uFHVT6R3nN1D85w-kQc_X6J1mw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "212782111292-fv3j8k560t9gtijbj1tbk629e4o5tsn2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:212782111292:android:ea139a1b887f1c76",
+        "android_client_info": {
+          "package_name": "auxesisapp.anjanproduction.com.firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "212782111292-1etkblhqvec40t3drroq4ae4988t26ge.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "auxesisapp.anjanproduction.com.firebase",
+            "certificate_hash": "778cdb02f5fef2855579b3edac386666605bc46a"
+          }
+        },
+        {
+          "client_id": "212782111292-fv3j8k560t9gtijbj1tbk629e4o5tsn2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAomuQH6uFHVT6R3nN1D85w-kQc_X6J1mw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "212782111292-fv3j8k560t9gtijbj1tbk629e4o5tsn2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

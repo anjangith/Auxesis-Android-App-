@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">AUXESIS</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_aux_community">AuxCommunity</string>
+    <string name="title_activity_registration">Registration</string>
+    <string name="title_activity_post">PostActivity</string>
+    <string name="title_activity_social">Social</string>
+    <string name="title_activity_add__post">Add_Post</string>
+    <string name="title_activity_comments">Comments</string>
+    <string name="title_activity_categories_descriptor">CategoriesDescriptor</string>
+    <string name="title_activity_map">MapActivity</string>
+    <string name="title_activity_final_map">FinalMapActivity</string>
+    <string name="title_activity_notification">Notification</string>
+    <string name="title_activity_registration_page">RegistrationPage</string>
+    <string name="title_activity_contact_us_page">ContactUsPage</string>
+    <string name="title_activity_about_page">AboutPage</string>
+    <string name="about">Growth is never a mere chance; it is a result of forces working together. And Auxesis has always been symbolized as a synonym of growth. Auxesis is a legacy that challenges history for a better competition. This techno-cultural cum management fest of ours is one of the most popular college fest in India. Auxesis is a plethora of exhilarating events that aims inspiring the zealous youth to showcase their uniqueness to the world. It is a consortium of live music, possibilities, enriching workshops and competitions that appeals the youth to discover new possibilities.\n\n
+
+Auxesis in its past seven years has reached as an indefinable fest and this time we aim to conquer the peak of the mountain of success. Auxesis V8.O is going to carry on the legacy and challenge history one more time for a better competition</string>
+    <string name="address">ADDRESS:Dibrugarh University,Dibrugarh,Assam</string>
+    <string name="pin">PIN:786004</string>
+    <string name="email">EMAIL:studentconvenor_18@auxesis.org.in</string>
+    <string name="contact_no">CONTACT NO:+91 9706717262</string>
+    <string name="title_activity_fav_items">FavItems</string>
+</resources>

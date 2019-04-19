@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="auxesisapp.anjanproduction.com.auxesis.Comments"
+    tools:showIn="@layout/activity_comments">
+
+
+    <ImageView
+        android:id="@+id/userImage_comments"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/textView5"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:srcCompat="@drawable/baseline_home_black_36dp" />
+
+    <TextView
+        android:id="@+id/nameText_comments"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/userImage_comments"
+        android:layout_toEndOf="@+id/textView3"
+        android:text="ANJAN SAIKIA"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/nameText_comments"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="17dp"
+        android:text="------------------------------------------------------------------------------" />
+
+    <TextView
+
+        android:id="@+id/postText_comments"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView5"
+        android:layout_below="@+id/textView5"
+        android:text="post dbsdbsndbsndbnsbdnsbdnsbdnbdnbsndbshdbshbsjsndsnjdnsjdnsjds"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/postText_comments"
+        android:layout_below="@+id/postText_comments"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="------------------------------------------------------------------------------" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView7"
+        android:layout_below="@+id/textView7"
+        android:layout_marginTop="12dp"
+        android:text="COMMENTS" />
+
+    <ListView
+        android:id="@+id/commentlist"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_alignStart="@+id/textView3"
+        android:layout_below="@+id/textView3"
+        android:layout_marginTop="16dp" />
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/commentText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/commentlist"
+        android:layout_below="@+id/commentlist"
+        android:layout_marginTop="21dp">
+
+        <android.support.design.widget.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="comment here"
+            android:textColor="@color/cardview_light_background" />
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:id="@+id/comment"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignEnd="@+id/textView7"
+        android:layout_below="@+id/commentText"
+        android:background="@color/colorPrimary"
+        android:text="COMMENT"
+        android:textAlignment="center"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/emptyList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/commentlist"
+        android:layout_below="@+id/commentlist"
+        android:text="No comments"
+        android:textColor="@color/colorPrimaryDark" />
+
+
+</RelativeLayout>
